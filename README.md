@@ -1,4 +1,4 @@
-# parsing_linkedin
+# linkedin_scraper
 
 Этот проект предназначен для парсинга профилей на LinkedIn.
 
