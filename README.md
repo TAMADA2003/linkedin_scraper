@@ -1,20 +1,20 @@
 # linkedin_scraper
 
-Этот проект предназначен для парсинга профилей на LinkedIn.
+This project is intended for parsing profiles on LinkedIn.
 
-Вот как он работает:
+Here's how it works:
 
-Для начала работы мы используем данные из файла "tsp_profiles.csv" для перехода по профилям.
+To get started, we use the data from the file "tsp_profiles.csv" to navigate through the profiles.
 
-Обработанные профили сохраняются в файл "scrapped_profiles.csv".
+Processed profiles are saved in the "scrapped_profiles.csv" file.
 
-Чтобы запустить скрапер, выполните следующие команды: python parsing_profile.py --id ... --login ... --password ... --delay 0.4
+Run the following commands to run the scraper: python parsing_profile.py --id ... --login ... --password ... --delay 0.4
 
-В этой команде:
+In this team:
 
-"parsing_profile.py" - это имя файла, из которого производится запуск.
-"--id" - указывает начальный ID для обработки профилей. ID берется из файла "tsp_profiles.csv".
-"--login" - это ваш логин для авторизации на LinkedIn.
-"--password" - это ваш пароль для авторизации на LinkedIn.
-"--delay" - устанавливает задержку между переходами по профилям (по умолчанию 0.4 секунды).
-Этот проект разработан для работы с Python версии 3.11.3.
+"parsing_profile.py" is the name of the file from which the launch is made.
+"--id" - specifies the initial ID for processing profiles. The ID is taken from the file "tsp_profiles.csv".
+"--login" is your login for LinkedIn login.
+"--password" is your LinkedIn login password.
+"--delay" - sets a delay between profile transitions (by default 0.4 seconds).
+This project is designed to work with Python version 3.11.3.
